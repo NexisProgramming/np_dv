@@ -1,8 +1,14 @@
 # sr_dv
-This is a simple script that allows spawning/deleting vehicles via chat commands. You can spawn vehilces via /car <modelID> and then delete using /dv.
 
-Install instructions: </br>
-1: Download files </br>
-2: Place sr_dv into your resources folder </br>
-3: Add to your server.cfg "ensure sr_dv" </br>
-4: Start/Restart server
+This simple script enables the spawning and deletion of vehicles through chat commands. You can spawn vehicles using `/car <modelID>` and delete them using `/dv`.
+
+Installation instructions:
+
+1. Download the files.
+2. Place `sr_dv` into your resources folder.
+3. Add "ensure sr_dv" to your server.cfg.
+4. Start or restart your server.
+
+
+
+**Thanks - Nexis Programming**
