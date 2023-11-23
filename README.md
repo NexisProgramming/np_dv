@@ -1,4 +1,4 @@
-# sr_dv
+# np_dv
 
 This simple script enables the spawning and deletion of vehicles through chat commands. You can spawn vehicles using `/car <modelID>` and delete them using `/dv`.
 
