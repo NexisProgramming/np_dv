@@ -11,4 +11,9 @@ Installation instructions:
 
 
 
+> [!WARNING]
+> You are able to start this resource with txAdmin, but it is not recommended as it may lead to server issues.
+
+
+
 **Thanks - Nexis Programming**
