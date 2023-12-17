@@ -5,7 +5,7 @@ RegisterCommand('car', function(source, args)
     --check if vehicle actually exists
     if not IsModelInCdimage(vehicleName) or not IsModelAVehicle(vehicleName) then
         TriggerEvent('chat:addMessage', {
-            args = {'Vehicle is not in this server' ..vehicleName}
+            args = {'The requested vehicle is not found:' ..vehicleName}
         })
         return
     end
@@ -36,7 +36,7 @@ RegisterCommand('car', function(source, args)
 
     --tell player its in
     TriggerEvent('chat:addMessage', {
-        args = {'You have spawned a ' .. vehicleName .. '.'}
+        args = {'The Vehicle ' .. vehicleName .. ' has been spawned.'}
     })
 end, false)
 
